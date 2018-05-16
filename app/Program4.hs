@@ -25,4 +25,5 @@ main = do
   print total
   print mean
   print range
+  print size (map read <- readFile "numbers.txt")
 
